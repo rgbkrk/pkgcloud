@@ -6,8 +6,8 @@
 * File
   * [Model](#file-model)
   * [APIs](#file-apis)
-  
-Creating a client is straight-forward:
+
+Create a client using an object literal with your credentials:
 
 ``` js
   var rackspace = pkgcloud.storage.createClient({
@@ -18,11 +18,9 @@ Creating a client is straight-forward:
   });
 ```
 
-Learn about [more options for creating clients](README.md) in the Openstack `storage` provider. `region` parameter can be any [Rackspace Ragion](http://www.rackspace.com/about/datacenters/). 
+Learn about [more options for creating clients](README.md) in the Openstack `storage` provider. `region` parameter can be any [Rackspace Region](http://www.rackspace.com/about/datacenters/). 
 
-### Container Model
-
-A Container for Rackspace has following properties:
+### Rackspace Container Model
 
 ```Javascript
 {
@@ -35,9 +33,7 @@ A Container for Rackspace has following properties:
 }
 ```
 
-### File Model
-
-A File for Rackspace has the following properties:
+### Rackspace File Model
 
 ```Javascript
 {
